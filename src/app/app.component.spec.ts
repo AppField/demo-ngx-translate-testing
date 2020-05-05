@@ -2,7 +2,6 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { TranslateTestingModule } from './translate-testing/translate-testing.module';
 
-
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
