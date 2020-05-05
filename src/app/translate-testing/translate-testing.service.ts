@@ -16,4 +16,8 @@ export class TranslateTestingServiceStub {
   }
 
   public use(lang: string) {}
+
+  public instant(key: string, interpolateParams?: Object): string {
+    return key;
+  }
 }
